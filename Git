@@ -1,0 +1,37 @@
+Git
+------
+
+Version Control System is a tool that helps to track changes in code 
+
+Git is a version Control System. It was open source and free of cost to use.
+
+1. track the history 
+2. Collaboration
+
+Github
+------
+
+A website that allows developers to store and manage their code using Git.
+
+
+Git..
+
+How could we know the status of the by using the below command?
+
+git status
+
+-->It will display the below output 
+
+1. If the file is newly created by the user it will fall into the "untracked". new files that git doesn't yet track
+
+2. If the status command displays "Modified" that means the existing has been changed. And will display output "staged" as ready to commit
+
+3. If the status command doesn't display anything no changes have been made.
+
+To add file to the change tracking the below command is used.
+
+git add <-file name->
+
+To add all files in the working directory below command is used.
+
+git add .
